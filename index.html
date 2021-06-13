@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <div class="container">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <form action="" method="">
+            <div class="grid">
+                <div>
+                    <label>* Name:</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>* Email:</label>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>* Age:</label>
+                </div>
+                <div>
+                    <input type="number" placeholder="Age" max="100" required>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>Which option best describes your current role?</label>
+                </div>
+                <div>
+                    <select name="description">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>* How likely is that you would recomment freeCodeCamp to a friend:</label>
+                </div>
+                <div class="radioDiv">
+                    <input type="radio" id="" name="reccomendation" value="definitely" required>
+                    <label for="definitely">Definitely</label>
+                    <input type="radio" id="" name="reccomendation" value="maybe" required>
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" id="" name="reccomendation" value="not-sure" required>
+                    <label for="not-sure">Not sure</label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>What do you like most in FCC:</label>
+                </div>
+                <div>
+                    <select>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>Things that should be improved in the future<br>(Check all that apply):</label>
+                </div>
+                <div class="radioDiv">
+                    <input type="checkbox" name="front-end" value="">
+                    <label for="front-end"> Front-end Projects</label>
+                    <input type="checkbox" name="back-end" value="">
+                    <label for="back-end"> Back-end Projects</label>
+                    <input type="checkbox" name="data-visualization" value="">
+                    <label for="data-visualization"> Data Visualization</label>
+                    <input type="checkbox" name="challenges" value="">
+                    <label for="challenges"> Challenges</label>
+                    <input type="checkbox" name="community" value="">
+                    <label for="community"> Open Source Community</label>
+                    <input type="checkbox" name="help-rooms" value="">
+                    <label for="help-rooms"> Gitter help rooms</label>
+                    <input type="checkbox" name="videos" value="">
+                    <label for="videos"> Videos</label>
+                    <input type="checkbox" name="meetups" value="">
+                    <label for="meetups"> City Meetups</label>
+                    <input type="checkbox" name="wiki" value="">
+                    <label for="wiki"> Wiki</label>
+                    <input type="checkbox" name="forum" value="">
+                    <label for="forum"> Forum</label>
+                    <input type="checkbox" name="cources" value="">
+                    <label for="cources"> Additional Cources</label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label>Any comments or Suggestion?</label>
+                </div>
+                <div>
+                    <textarea name="comments" rows="4" placeholder="Enter your comments here. . ."></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
